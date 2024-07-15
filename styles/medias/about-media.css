@@ -1,0 +1,18 @@
+@media(max-width:1024px){
+    .container{
+        grid-template-columns:repeat(2,270px);
+    }
+}
+
+
+@media(max-width:650px){
+    .container{
+        grid-template-columns:repeat(1,270px);
+        margin-top:5%;
+        gap:1%;
+        justify-content:center;
+    }
+    body{
+        margin-top:15%;
+    }
+}

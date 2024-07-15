@@ -1,0 +1,71 @@
+@media(max-width:1024px){
+    .nav li{
+        display:none;
+    }
+    .menu-icon{
+        display:flex;
+    }
+    .photos .container{
+        grid-template-columns:repeat(2,1fr);
+    }
+   footer{
+       grid-template-columns:repeat(2,1fr);
+   } 
+}
+
+
+@media(max-width:800px){
+     .services-section .container{
+        grid-template-columns:repeat(2,1fr);
+    }
+    .photos .container{
+        grid-template-columns:repeat(2,1fr);
+    }
+    main{
+        margin-top:20%;
+    }
+    .contacts{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+
+@media(max-width:640px){
+    .sidebar{
+        width:97%;
+    }
+    main{
+        margin-top:20%;
+    }
+    main .massage{
+        width:85%;
+        margin:0;
+    }
+    main .about-section,.services-section,.photos{
+        width:85%;
+    }
+    
+    .services-section .container{
+        grid-template-columns:repeat(1,1fr);
+    }
+    .photos .container{
+        grid-template-columns:repeat(1,1fr);
+    }
+   .photos img{
+       width:100%;
+   } 
+   .photos{
+       height:220vh;
+   }
+   .photos .btn-cover{
+       margin-top:80%;
+   }
+   .contacts{
+       width:85%;
+   }
+   footer{
+       grid-template-columns:repeat(1,1fr);
+       gap:3%;
+       height:50vh;
+   }
+}
