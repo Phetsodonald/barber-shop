@@ -4,7 +4,6 @@
 *{
     padding:0;
     margin:0;
-    font-familly:sans-serif;
 }
 
 
@@ -15,6 +14,7 @@ body{
     background-size:cover;
     background-repeat:no-repeat;
     margin:10% 0 0 0;
+    font-familly:roboto,sans-serif;
     min-height:100vh;
 }
 
